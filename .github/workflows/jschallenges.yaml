@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - runs:
-      - using: 'node16'
-      - main: 'index.js'
+      - run: 'npm start'
+      - main: '# another command to run Javascript code'
