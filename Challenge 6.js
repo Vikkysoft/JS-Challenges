@@ -1,9 +1,9 @@
 //Sort an array of strings in alphabetical order
-function sortStringArray(stringArrary) {
+function sortStringArray(stringArray) {
     let newArr = [];
     const sorted = stringArray.sort();
-    for (let i = 0; i < stringArrary.length; i++) {
-        newArr.push(stringArrary[i].toLowerCase());
+    for (let i = 0; i < stringArray.length; i++) {
+        newArr.push(stringArray[i].toLowerCase());
     }
     return newArr.sort();
 }
