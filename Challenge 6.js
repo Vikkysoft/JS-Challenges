@@ -8,6 +8,6 @@ function sortStringArray(stringArray) {
     return newArr.sort();
 }
 
-console.log(sortStringArray(['Jan', 'Feb', 'March', 'Apr', 'May']));
+console.log(sortStringArray(['Jan', 'Feb', 'March', 'Apr', 'May', 'Jun', 'July']));
 
 //N.B. You can combine sort and reverse to change the order of sorting
