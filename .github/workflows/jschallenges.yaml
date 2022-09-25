@@ -1,9 +1,9 @@
 name: GitHub Actions
 on: [ push ]
 jobs:
-  Test:
-    runs-on: ubuntu-latest
+  Explore-GitHub-Actions:
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-      - run: 'npm start'
-      - main: ' another command to run Javascript code'
+      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
+      - run: node Challenge 1.js
