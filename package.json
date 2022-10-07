@@ -1,7 +1,7 @@
 {
-  "name": "js-challenges",
+  "name": "test",
   "version": "1.0.0",
-  "description": "Testify Challenges",
+  "description": "Javascript challenges",
   "main": "Challenge 1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Vikkysoft/JS-Challenges.git"
   },
-  "author": "Victoria Agunbiade bolvic28@gmail.com",
+  "author": "Victoria",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vikkysoft/JS-Challenges/issues"
